@@ -1,7 +1,7 @@
 /* global module:false */
 module.exports = function(grunt) {
 	var port = grunt.option('port') || 8000;
-	var root = grunt.option('root') || './slides/**';
+	var root = grunt.option('root') || '.';
 
 	if (!Array.isArray(root)) root = [root];
 
@@ -140,7 +140,7 @@ module.exports = function(grunt) {
 				files: root.map(path => path + '/*.html')
 			},
 			markdown: {
-				files: root.map(path => path + '/*.md')
+				files: root.map(path => path + '/**/*.md')
 			},
 			options: {
 				livereload: true
