@@ -15,13 +15,6 @@
 
 ---
 
-# About me
-
-* 趣味: 食べること
-* 特技: リバウンド
-
----
-
 # Our works
 
 #### ゲームのサーバサイドの開発・運用
@@ -254,9 +247,9 @@
 
 ## 構想１
 
-* TerraformはOCIをサポートしている
+* Terraform は OCIをサポートしている
 * Terraform は GraphViz を出力できる
-* GraphViz を構成図にするのは簡単そう
+* GraphViz を 構成図にするのは簡単そう
 
 ---
 
